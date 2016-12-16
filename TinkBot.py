@@ -12,7 +12,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('!kappa'):
-        await client.send_message(message.channel, 'Kappa raised')
+    if message.content.startswith('!links'):
+        await client.send_message(message.channel, 'Check out the useful-links channel to the left for all the basic resources needed for Bot programming.')
 
 client.run('MjU4OTYwNzU1NjA3NjAxMTUy.CzRBqA.fsBJYI9ZFzrlmJP57FYR6FdDifA')
