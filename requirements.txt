@@ -4,3 +4,4 @@ chardet==2.3.0
 discord.py==0.15.1
 multidict==2.1.4
 websockets==3.2
+python==3.5.2
